@@ -1,11 +1,14 @@
-ddddocr验证码识别   
+ddddocr验证码识别 封装 一键解决简单验证码
+
+https://github.com/sml2h3/ddddocr
+
 启动方法
 ```
 docker-compose build 
 docker-compose up -d
 ```
 
-启动之后：http://172.0.0.1:5000/ocr
+启动之后：http://127.0.0.1:5000/ocr
 
 
 
