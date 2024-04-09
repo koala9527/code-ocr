@@ -1,0 +1,12 @@
+version: "3.5"
+
+services:
+  code-ocr:
+    image: code-ocr:latest
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: code-ocr
+    restart: always
+    ports:    # 指定端口映射
+      - "5000:5000"
